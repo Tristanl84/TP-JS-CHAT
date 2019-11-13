@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Tristanl84/TP-JS-CHAT/issues"
   },
-  "homepage": "https://github.com/Tristanl84/TP-JS-CHAT#readme"
+  "homepage": "https://github.com/Tristanl84/TP-JS-CHAT#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
 }
