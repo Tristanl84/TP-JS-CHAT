@@ -39,7 +39,7 @@ $(function () {
   });
   const socket = io();
     socket.emit("firstConnection","Hello Socket Server !");
-    socket.emit("message", 'Salut');
+    socket.emit("message", 'Salut, je suis vraiment nul en JS');
     socket.on("message", data => console.log(data));
 </script>
 </html>
